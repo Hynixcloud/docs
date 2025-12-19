@@ -1,6 +1,5 @@
 {
   "name": "HynixCloud Docs",
-  "logo": "/logodark.png",
   "favicon": "/favicon.ico",
   "search": {
     "enabled": true
@@ -27,3 +26,8 @@
     "primary": "#2563eb"
   }
 }
+"logo": {
+  "light": "/logo-dark.png",
+  "dark": "/logo-light.png"
+}
+
