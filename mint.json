@@ -2,6 +2,9 @@
   "name": "HynixCloud Docs",
   "logo": "/logo.png",
   "favicon": "/favicon.ico",
+  "search": {
+    "enabled": true
+  },
   "navigation": [
     {
       "group": "Introduction",
