@@ -1,1 +1,14 @@
 
+{
+  "name": "HynixCloud Docs",
+  "logo": "/logo.png",
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["index"]
+    }
+  ],
+  "colors": {
+    "primary": "#2563eb"
+  }
+}
