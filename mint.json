@@ -8,10 +8,6 @@
       "pages": ["index"]
     },
     {
-      "group": "Getting Started",
-      "pages": ["getting-started", "quickstart"]
-    },
-    {
       "group": "Products",
       "pages": ["compute", "storage", "networking"]
     },
