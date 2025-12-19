@@ -4,11 +4,23 @@
   "favicon": "/favicon.ico",
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Introduction",
       "pages": ["index"]
+    },
+    {
+      "group": "Getting Started",
+      "pages": ["getting-started", "quickstart"]
+    },
+    {
+      "group": "Products",
+      "pages": ["compute", "storage", "networking"]
+    },
+    {
+      "group": "API",
+      "pages": ["api-overview", "authentication"]
     }
   ],
   "colors": {
-    "primary": "#D438FF"
+    "primary": "#2563eb"
   }
 }
