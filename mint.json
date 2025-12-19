@@ -27,9 +27,6 @@
     }
   ],
   "colors": {
-    "primary": {
-      "light": "#af52de",
-      "dark": "#af52de"
-    }
+    "primary": "#AF52DE"
   }
 }
