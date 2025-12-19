@@ -1,23 +1,14 @@
 {
   "name": "HynixCloud Docs",
-  "favicon": "/favicon.ico",
   "logo": "/logo.png",
+  "favicon": "/favicon.ico",
   "navigation": [
     {
-      "group": "Introduction",
-      "pages": ["index", "overview"]
-    },
-    {
       "group": "Getting Started",
-      "pages": ["getting-started", "quickstart"]
-    },
-    {
-      "group": "Products",
-      "pages": ["compute", "storage", "networking"]
-    },
-    {
-      "group": "API",
-      "pages": ["api-overview", "auth", "reference"]
+      "pages": ["index"]
     }
-  ]
+  ],
+  "colors": {
+    "primary": "#2563eb"
+  }
 }
