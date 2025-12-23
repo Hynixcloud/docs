@@ -1,0 +1,147 @@
+---
+title: "Instance Configuration"
+description: "This section explains how to configure and manage an instance to meet performance, storage, and data protection requirements."
+---
+
+Follow the steps below to ensure your instance is configured correctly.
+
+---
+
+## Configuration Overview
+
+Before making changes, review the following areas:
+
+- Hardware Configuration
+- Disk Information
+- Backup Information
+
+All configuration options are available from the **Config** tab of your selected instance.
+
+---
+
+## Accessing Instance Configuration
+
+1. Go to the **Instances** section in the dashboard
+2. Select the required instance
+3. Open the **Config** tab
+
+> **Note:** The instance must be **powered off** before making hardware changes.
+
+---
+
+## Hardware Configuration
+
+Configure memory and CPU resources based on your application workload.
+
+### Memory (RAM)
+
+Select the required RAM size based on usage needs:
+
+- Available options: **2 GB, 4 GB, 8 GB, and higher**
+- Maximum supported: **Up to 750 GB per instance**
+
+Choose higher memory for database workloads, caching, or high-traffic applications.
+
+---
+
+### CPU Cores
+
+Select the number of CPU cores to ensure adequate processing power:
+
+- Available options: **1, 2, 4 cores and above**
+- Maximum supported: **Up to 200 CPU cores per instance**
+
+Higher core counts are recommended for compute-intensive and parallel workloads.
+
+---
+
+### Important Notes
+
+- The instance must be **stopped** before modifying CPU or RAM
+- **Upgrade charges apply** for increasing resources
+- **Downgrades are free** and take effect after restart
+
+---
+
+## Disk Information
+
+The disk section provides an overview of your instance storage.
+
+### Storage Details
+
+- **Total Drives** – Number of disks attached to the instance
+- **Total Storage** – Combined storage capacity
+- **Used Storage** – Space currently in use
+- **Available Storage** – Remaining free capacity
+
+---
+
+## Disk Management
+
+### Add a New Disk
+
+1. Enter the required disk size (in GB)
+2. Click **Validate** to confirm
+3. The disk will be attached to the instance
+
+---
+
+### Extend Disk Size
+
+1. Select **Disk0** or **Disk1** from the dropdown
+2. Enter the **new total disk size** (in GB)
+3. Click **Validate** to apply the change
+
+> **Note:** Disk size extensions are applied to the total disk capacity.
+
+---
+
+### Delete a Disk
+
+1. Select the checkbox next to the disk to be removed
+2. Click **Delete**
+
+> **Restriction:**
+>
+> - **Disk0 (OS Disk)** cannot be deleted
+
+---
+
+## Backup Information
+
+HynixCloud provides an integrated backup solution to protect your data and ensure recoverability.
+
+---
+
+### Automatic Backups
+
+- **Frequency:** Automatic backups are created every **24 hours**
+- **Configuration:** Backups can be enabled or managed from the **Config** section of the instance
+
+---
+
+### Backup Cost
+
+- Backup pricing is based on the **current disk size**
+- Costs scale automatically as disk usage increases
+
+---
+
+### Backup Retention Period
+
+- Select how long backups should be retained
+- Multiple retention periods are available based on your requirements
+
+Longer retention periods provide extended recovery options but may increase storage costs.
+
+---
+
+## Summary
+
+Instance configuration allows you to:
+
+- Scale CPU and memory resources
+- Manage disks and storage capacity
+- Protect data with automated backups
+
+Proper configuration ensures optimal performance, cost efficiency, and data safety.

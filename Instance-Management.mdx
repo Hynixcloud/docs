@@ -1,0 +1,229 @@
+---
+title: "Instance Management"
+description: "The Manage section in the HynixCloud dashboard is the central interface for controlling, monitoring, and maintaining your virtual machine instance. It provides tools for configuration management, performance monitoring, and administrative actions."
+---
+
+## Management Features Overview
+
+The following management options are available for each instance:
+
+- MAC Reset
+- Password Reset
+- Network Management
+- Machine Status
+- Uptime Monitoring
+- Power State Controls
+- Memory Usage
+- CPU Usage
+- Performance Graph History
+- Alert Notifications
+- Delete Instance
+
+All actions are accessible from the **Instances** section of the dashboard.
+
+---
+
+## Accessing Instance Management
+
+1. Log in to the **HynixCloud Dashboard**
+2. Navigate to **Instances**
+3. Select the instance you want to manage
+4. Open the **Manage** section
+
+---
+
+## MAC Reset
+
+The **MAC Reset** option resets the Media Access Control (MAC) address of the instance’s network interface.
+
+### Use Cases
+
+- Resolving network connectivity issues
+- Applying new network configurations
+- Updating MAC-based access controls
+
+### Behavior
+
+- Changes take effect **immediately**
+- No restart is required
+
+---
+
+## Password Reset
+
+The **Password Reset** feature allows you to securely change the login credentials for your instance.
+
+### Steps
+
+1. Navigate to **Instances**
+2. Select the instance
+3. Click **Password Reset**
+4. Enter the required details
+
+### Required Fields
+
+- **Username**
+  - Windows: `Administrator`
+  - Linux / CentOS: `joy`
+- **Password**
+  - Must include uppercase and lowercase letters
+  - Must include numbers and special characters
+  - Maximum length: **15 characters**
+
+> **Note:** Passwords longer than 15 characters may not be accepted by the guest agent.
+
+Changes apply immediately.
+
+---
+
+## Network Management
+
+The **Network** section provides visibility and control over instance network activity.
+
+### Features
+
+- **Download and Upload Statistics**
+  - Displays total data transferred (e.g., downloaded and uploaded usage)
+- **Network Control**
+  - Enable or disable network access for the instance
+- **Bandwidth Monitoring**
+  - Helps manage and optimize network usage
+- **Performance Diagnostics**
+  - Useful for identifying network-related issues
+
+---
+
+## Machine Status
+
+The **Machine Status** indicator shows the current operational state of the instance.
+
+### States
+
+- **Running** – Instance is active and operational
+- **Stopped** – Instance is powered off
+- **Paused** – Instance is temporarily suspended
+
+---
+
+## Uptime
+
+The **Uptime** section displays how long the instance has been running continuously.
+
+### Insights
+
+- Long uptime generally indicates system stability
+- Frequent restarts may signal configuration or application issues
+
+### Example
+
+`4 Days, 21 Hours, 44 Minutes` indicates uninterrupted operation during this period.
+
+---
+
+## Power State Controls
+
+Power state operations allow direct control over the instance lifecycle.
+
+### Available Actions
+
+- **Start** – Power on a stopped instance
+- **Stop** – Immediately stop a running instance
+- **Restart** – Perform a hard reboot
+- **Pause** – Temporarily suspend the instance
+- **Resume** – Resume a paused instance
+
+All power actions are applied **instantly**.
+
+> **Note:** For graceful shutdowns or soft reboots, use the operating system controls inside the instance.
+
+---
+
+## Memory Usage
+
+The **Memory** graph provides a visual view of RAM usage over time.
+
+### Use Cases
+
+- Identify sustained high memory usage
+- Determine when to upgrade RAM
+- Detect application memory leaks
+
+Proper memory monitoring helps prevent performance degradation.
+
+---
+
+## CPU Usage
+
+The **CPU** graph shows processor utilization over time.
+
+### Use Cases
+
+- Identify CPU bottlenecks
+- Optimize application performance
+- Determine when additional CPU cores are required
+
+Consistently high CPU usage may indicate the need for scaling or optimization.
+
+---
+
+## Graph History
+
+The **Graph History** feature provides historical performance data.
+
+### Capabilities
+
+- Monitor long-term trends for CPU, memory, and network usage
+- Analyze past performance and identify anomalies
+- Plan scaling and resource optimization
+
+Historical data is critical for capacity planning and performance tuning.
+
+---
+
+## Alert Notifications
+
+Alert Notifications keep you informed about important instance events.
+
+### Features
+
+- **Real-Time Alerts** for events such as:
+  - High CPU usage
+  - Memory exhaustion
+  - Network issues
+- **Custom Thresholds**
+  - Define alert conditions based on resource usage
+- **Multiple Notification Channels**
+  - Email
+  - SMS
+  - Push notifications
+
+Alerts help ensure proactive monitoring and faster issue resolution.
+
+---
+
+## Delete Instance
+
+The **Delete** option permanently removes an instance.
+
+### Important Notes
+
+- Deletion is **irreversible**
+- All data associated with the instance is permanently removed
+- Ensure backups are taken before deletion
+
+### Recreate Policy
+
+- You can create a new instance using the same purchased capacity or plan after deletion
+
+---
+
+## Summary
+
+Instance Management allows you to:
+
+- Control instance lifecycle
+- Monitor performance and resource usage
+- Manage security and access
+- Receive alerts and analyze historical data
+
+These tools ensure operational reliability and effective infrastructure management.
